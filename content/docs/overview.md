@@ -6,7 +6,7 @@ author: "Colin Wilson"
 title: "Overview"
 icon: "circle"
 toc: true
-description: "A chrultrabook is a modified Chromebook that is able to run Windows, Linux, or even macOS by using MrChromebox’s coreboot firmware"
+description: "A quick description of chrultrabook."
 publishdate: "2022-09-30T05:33:22+01:00"
 tags: ["Beginners"]
 categories: [""]
