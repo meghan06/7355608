@@ -12,7 +12,7 @@ hero:
       mobile: "gradient-mobile.webp"
 
 
-  title: "chrultrabook Docs"
+  title: "Chrultrabook Docs"
   subtitle: The chrultrabook project facilitates the installation of alternative operating systems on Chromebooks, offering users the freedom to customize their devices beyond the limitations of chromeOS.
 
 
@@ -76,58 +76,3 @@ features:
       icon: trending_up
       description: The chrultrabook project gives users the freedom to choose and experiment with different operating systems, fostering a sense of ownership and control over their computing experience.
 
-# Image compare
-image_compare:
-  enable: true
-  weight: 30
-
-
-  items:
-    - title: Dark Mode
-      config: {
-        startingPoint: 50,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Dark',
-          after: 'Light',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_dark_v0.8.webp"
-      imageAfter: "lotusdocs_light_v0.8.webp"
-
-    - title: Custom Fonts
-      config: {
-        controlColor: "#3C4257",
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: false,
-        showLabels: true,
-        labelOptions: {
-          before: 'Inter',
-          after: 'Life Saver',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
-      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
-
-    - title: Accent Color
-      config: {
-        startingPoint: 25,
-        addCircle: true,
-        addCircleBlur: true,
-        showLabels: true,
-        labelOptions: {
-          before: 'Blue',
-          after: 'Cardinal',
-          onHover: false
-        }
-      }
-      imagePath: "images/screenshots"
-      imageBefore: "lotusdocs_blue_theme_colour.webp"
-      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
