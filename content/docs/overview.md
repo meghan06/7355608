@@ -14,7 +14,7 @@ categories: [""]
 
 The purpose of this site is to provide documentation that is detailed, user-friendly, and has up to date information about the hardware, software, and firmware on Chromebooks. Because of this, you are expected to read, learn, and use Google. This is NOT a one click procedure.
 
-## What is Lotus Docs?
+## What is the Chrultrabook Project?
 
 The chrultrabook project facilitates the installation of alternative operating systems on Chromebooks, offering users the freedom to customize their devices beyond the limitations of chromeOS.
 
