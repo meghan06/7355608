@@ -76,3 +76,5 @@ features:
       icon: trending_up
       description: The chrultrabook project gives users the freedom to choose and experiment with different operating systems, fostering a sense of ownership and control over their computing experience.
 
+image_compare:
+  enable: false
