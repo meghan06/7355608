@@ -1,7 +1,7 @@
 ---
 weight: 10
 title: "Documentation"
-description: "Explore our guides and examples to deploy your Hugo site using the Lotus Docs theme."
+description: "Explore our guides to have a smooth experience installing an alternate OS on your Chromebook."
 icon: menu_book
 lead: ""
 date: 2022-10-10T02:21:15+00:00
