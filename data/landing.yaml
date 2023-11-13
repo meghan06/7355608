@@ -26,7 +26,7 @@ hero:
   ctaButton:
     icon: rocket_launch
     btnText: "Get Started"
-    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    url: "/docs/"
   cta2Button:
     btnText: "Discourse"
     url: "https://forum.chrultrabook.com"
