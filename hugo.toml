@@ -50,7 +50,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with submodule 
        
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs"                        # default html title for documentation pages/sections
+        title           = "Documentation"                        # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path for documentation site | default "docs"
 
