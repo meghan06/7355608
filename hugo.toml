@@ -1,6 +1,6 @@
 baseURL = "/" # (or set via env variable HUGO_BASEURL)
 languageCode = "en-GB"
-title = "Lotus Docs | A Hugo Documentation Theme"
+title = "Chrultrabook Project"
 # theme = "lotusdocs"
 contentDir = "content"
 enableEmoji = true
