@@ -11,25 +11,15 @@ hero:
       desktop: "gradient-desktop.webp"
       mobile: "gradient-mobile.webp"
 
-  # badge:
-  #   text: v0.0.2
-  #   color: primary # primary, secondary, success, danger, warning, info, light, dark
-  #   pill: false # boolean
-  #   soft: true # boolean
 
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+  title: "chrultrabook Docs"
+  subtitle: The chrultrabook project facilitates the installation of alternative operating systems on Chromebooks, offering users the freedom to customize their devices beyond the limitations of chromeOS.
 
-  title: "Lotus Docs"
-  subtitle: A lightweight, **modern documentation** theme for Hugo. Easily customised for building **fast**, **secure**, and **SEO-friendly** documentation sites.
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
-    alt: "Lotus Docs Screenshot" # Optional but recommended
+    alt: "Chrultrabook Docs Screenshot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
@@ -38,11 +28,9 @@ hero:
     btnText: "Get Started"
     url: "/docs/quickstart/#create-a-new-lotus-docs-site"
   cta2Button:
-    icon: construction
-    btnText: "In Development"
-    url: "https://github.com/colinwilson/lotusdocs"
-
-  info: "**Open Source** MIT Licensed."
+    icon: community
+    btnText: "Discourse"
+    url: "https://forum.chrultrabook.com"
 
 # Features Grid
 features:
@@ -53,49 +41,47 @@ features:
   subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
 
   items:
-    - title: Fast
-      icon: speed
-      description: 4 x 100's score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.
+    - title: Customization
+      icon: settings
+      description: Users can install alternative operating systems, enabling a highly customizable computing experience tailored to individual preferences and needs.
 
-    - title: SEO Friendly
-      icon: trending_up
-      description: Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.
+    - title: Versatility
+      icon: translate
+      description: The chrultrabook project broadens the functionality of Chromebooks, allowing users to run a variety of applications and software not natively supported by Chrome OS.
 
     - title: Secure by default
       icon: lock
-      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
+      description: Users can explore alternative security measures and practices beyond the default settings of Chrome OS, providing a more diverse range of options for those with specific security preferences.
+      
+    - title: Developer Empowerment
+      icon: construction
+      description: The project empowers developers to experiment, test, and optimize software on Chromebook hardware, fostering innovation and expanding the range of applications available for these devices.
 
-    - title: Optional Features
-      icon: settings
-      description: Many Lotus Docs features are configurable via optional parameters. Require DocSearch for your site? Then enable it via a single setting.
-
-    - title: Deploy to Vercel
+    - title: Extended Lifespan
       icon: change_history
-      description: Deploy to Vercel in seconds. Vercel Functions, Vercel Redirects/Rewrites, and Vercel Headers are all configurable for an enriched experience.
+      description: By providing the ability to install alternative operating systems, the Project can extend the lifespan of older Chromebook models, allowing users to continue using their devices with updated software.
 
-    - title: Dark Mode
-      icon: dark_mode
-      description: "Prefer not to be blasted by the sun while reading? Switch to a low-light UI with the click of a button. Modify colour variables to match your branding."
+    - title: Open Source Ethos
+      icon: lock
+      description: The ability to run alternative operating systems increases the compatibility of Chromebooks with a wider array of software, enhancing their usefulness for various tasks and industries.
 
-    - title: Search by DocSearch
+    - title: Expanded Software Compatibility
       icon: search
-      description: Search your docs with DocSearch. A powerful, efficient and accessible search solution built on Algolia Crawler & Autocomplete.
+      description: The project aligns with open-source principles, promoting transparency, collaboration, and user empowerment within the computing community.
 
     - title: Multilingual Support
       icon: translate
-      description: Lotus Docs supports Hugo's Multilingual Mode. Create documentation in multiple languages side by side with i18n support.
+      description: A fostering and welcome community enables users from all parts of the globe to have support.
 
-    - title: Bootstrap v5
-      icon: palette
-      description: Built on Bootstrap 5, Lotus Docs allows for a familiar, flexible, and intuitive developer experience. Easily customise your site via SCSS variables and files.
+    - title: User Freedom
+      icon: trending_up
+      description: The chrultrabook project gives users the freedom to choose and experiment with different operating systems, fostering a sense of ownership and control over their computing experience.
 
 # Image compare
 image_compare:
   enable: true
   weight: 30
 
-  title: Customise The Lotus Docs Appearance
-  subtitle: Much of Lotus Docs' appearance can be customised. Dark mode is optional (enabled by default) and you can choose a Google font that suites you via the config parameters.
 
   items:
     - title: Dark Mode
