@@ -6,6 +6,7 @@ title: "Quickstart"
 icon: "rocket_launch"
 # featured_image: ""
 description: "A guide to getting up and running with a altOS."
+---
 
 ## Requirements
 
