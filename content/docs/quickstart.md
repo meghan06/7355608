@@ -60,7 +60,6 @@ cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 ## Step 4: altOS
 
 {{< tabs tabTotal="3">}}
-{{% /tab %}}
 {{% tab tabName="Windows" %}}
 
 ### Prerequisites
@@ -91,6 +90,7 @@ cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 
 {{% /tab %}}
 {{% tab tabName="Linux" %}}
+
 ### Prerequisites
 - A USB drive thats at least 8 gigabytes with nothing on it (everything on it will get wiped)
 - Full ROM or RW_LEGACY firmware flashed
