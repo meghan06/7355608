@@ -58,4 +58,72 @@ cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 5. Follow the on-screen prompts. Once you are done, you should reboot into the new firmware! Keep in mind that the first boot will always take longer due to a process called "memory training". DO NOT power off the device at any time during the first boot.
 
 ## Step 4: altOS
-todo
+
+{{% /tab %}}
+{{% tab tabName="Windows" %}}
+
+### Prerequisites
+- A USB drive thats at least 8 gigabytes with nothing on it (everything on it will get wiped)
+- Full ROM firmware flashed on your Chromebook
+- Internet connection
+- Another PC 
+
+1. Download the Windows ISO. On the Windows download page, look for `Download Windows 11 Disk Image (ISO) for x64 devices`. **You want the ISO, not the MediaCreationTool**.
+  - [Windows 11 Download](https://www.microsoft.com/software-download/windows11)
+  - [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10)
+
+{{< alert context="danger" text="Do not use unofficial ISOs like Tiny10/11. Only use official ISOs provided by Microsoft, modified ISOs will not be supported here." />}}
+
+2. Download Rufus from [here](https://rufus.ie/en/)
+3. Plug in your USB drive and launch Rufus.
+4. Under the `Device` box, select the USB you want to use
+5. Click the `SELECT` box, then find the ISO and select it.
+6. Set `Partition Scheme` as GPT and `Target System` as UEFI
+7. Click `START`. A box should come up asking you to disable certain features. **Make sure the TPM and Storage checks are disabled.**.
+8. Once the process is done, it will say `READY`. Unmount the USB drive and you are now ready to install Windows!
+9. Plug the USB into your Chromebook and power it on. When you see the rabbit/coreboot logo, press `ESC`.
+10. Using the arrow keys on your keyboard, navigate to `Boot Menu`. Press Enter to open that menu
+11. Using your arrow keys, find your USB device. Then, press Enter to select it. You should now be booted into the Windows install enviroment.
+12. Install Windows as you would on any other system.
+13. Thats it! **You will need to install CoolStar drivers (mandatory) after you install.** Check out the Post-Install page for further details.
+
+
+{{% /tab %}}
+{{% tab tabName="Linux" %}}
+### Prerequisites
+- A USB drive thats at least 8 gigabytes with nothing on it (everything on it will get wiped)
+- Full ROM or RW_LEGACY firmware flashed
+- Internet connection
+- Another PC 
+
+1. Download your distro of choice. Some good choices are:
+   - Arch Linux
+   - Fedora Linux
+   - Debian 12 Bookworm
+   - OpenSuSE Tumbleweed
+   - And any OS' based on those mentioned above.
+
+Some distros to avoid are:
+  - Ubuntu based distros
+  - Manjaro Linux 
+
+{{< alert context="note" text="For audio to work on Debian, users will need to install a custom kernel." />}}
+
+2. Download Rufus from [here](https://rufus.ie/en/)
+3. Plug in your USB drive and launch Rufus.
+4. Under the `Device` box, select the USB you want to use
+5. Click the `SELECT` box, then find the ISO and select it.
+6. Set `Partition Scheme` as GPT and `Target System` as UEFI
+7. Click `START`. 
+8. Once the process is done, it will say `READY`. Unmount the USB drive and you are now ready to install Linukcs!
+9. Plug the USB into your Chromebook and power it on. When you see the rabbit/coreboot logo, press `ESC`.
+10. Using the arrow keys on your keyboard, navigate to `Boot Menu`. Press Enter to open that menu
+11. Using your arrow keys, find your USB device. Then, press Enter sto select it. You should now be booted into the Linux installer.
+12. Install Linux as you would on any other system.
+13. Thats it! **You will need to run WeirdTreeThing's audio script for speaker/mic/jack support.** Check out the Post-Install page for further details.
+
+
+{{% /tab %}}
+{{% tab tabName="macOS)" %}}
+
+figure it out you fucking nerd 
