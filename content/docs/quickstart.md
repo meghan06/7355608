@@ -70,12 +70,11 @@ This step covers the installation of a altOS (alternateOS); something that is no
 - Internet connection
 - Another PC 
 
-1. Download the Windows ISO. On the Windows download page, look for `Download Windows 11 Disk Image (ISO) for x64 devices`. **You want the ISO, not the MediaCreationTool**.
-  - [Windows 11 Download](https://www.microsoft.com/software-download/windows11)
-  - [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10)
-
 {{< alert context="danger" text="Do not use unofficial ISOs like Tiny10/11. Only use official ISOs provided by Microsoft, modified ISOs will not be supported here." />}}
 
+1. Download the Windows ISO. On the Windows download page, look for `Download Windows 11 Disk Image (ISO) for x64 devices`. **You want the ISO, not the MediaCreationTool**.
+      - [Windows 11 Download](https://www.microsoft.com/software-download/windows11)
+      - [Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10)
 2. Download Rufus from [here](https://rufus.ie/en/)
 3. Plug in your USB drive and launch Rufus.
 4. Under the `Device` box, select the USB you want to use
@@ -99,6 +98,8 @@ This step covers the installation of a altOS (alternateOS); something that is no
 - Internet connection
 - Another PC 
 
+{{< alert context="primary" text="For audio to work on Debian, users will need to install a custom kernel." />}}
+
 1. Download your distro of choice. Some good choices are:
    - Arch Linux
    - Fedora Linux
@@ -106,11 +107,9 @@ This step covers the installation of a altOS (alternateOS); something that is no
    - OpenSuSE Tumbleweed
    - And any OS' based on those mentioned above.
 
-Some distros to avoid are:
-  - Ubuntu based distros
-  - Manjaro Linux 
-
-{{< alert context="primary" text="For audio to work on Debian, users will need to install a custom kernel." />}}
+    Some distros to avoid are:
+      - Ubuntu based distros
+      - Manjaro Linux 
 
 2. Download Rufus from [here](https://rufus.ie/en/)
 3. Plug in your USB drive and launch Rufus.
