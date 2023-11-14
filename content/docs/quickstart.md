@@ -59,6 +59,7 @@ cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 
 ## Step 4: altOS
 
+{{< tabs tabTotal="3">}}
 {{% /tab %}}
 {{% tab tabName="Windows" %}}
 
@@ -127,3 +128,7 @@ Some distros to avoid are:
 {{% tab tabName="macOS)" %}}
 
 figure it out you fucking nerd 
+
+{{% /tab %}}
+{{< /tabs >}}
+
