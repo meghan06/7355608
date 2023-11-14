@@ -58,6 +58,8 @@ cd; curl -LOk mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 5. Follow the on-screen prompts. Once you are done, you should reboot into the new firmware! Keep in mind that the first boot will always take longer due to a process called "memory training". DO NOT power off the device at any time during the first boot.
 
 ## Step 4: altOS
+This step covers the installation of a altOS (alternateOS); something that is not chromeOS. You can choose between 3 OS'es; Windows, Linux, and even macOS.
+
 
 {{< tabs tabTotal="3">}}
 {{% tab tabName="Windows" %}}
@@ -108,7 +110,7 @@ Some distros to avoid are:
   - Ubuntu based distros
   - Manjaro Linux 
 
-{{< alert context="note" text="For audio to work on Debian, users will need to install a custom kernel." />}}
+{{< alert context="primary" text="For audio to work on Debian, users will need to install a custom kernel." />}}
 
 2. Download Rufus from [here](https://rufus.ie/en/)
 3. Plug in your USB drive and launch Rufus.
@@ -126,6 +128,9 @@ Some distros to avoid are:
 
 {{% /tab %}}
 {{% tab tabName="macOS)" %}}
+
+{{< alert context="primary " text="macOS only works on a handful of laptops and currently does not have audio/mic/jack support." />}}
+
 
 figure it out you fucking nerd 
 
