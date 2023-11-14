@@ -124,7 +124,7 @@ This step covers the installation of a altOS (alternateOS); something that is no
 
 
 {{% /tab %}}
-{{% tab tabName="macOS)" %}}
+{{% tab tabName="macOS" %}}
 
 {{< alert context="primary " text="macOS only works on a handful of laptops and currently does not have audio/mic/jack support." />}}
 
